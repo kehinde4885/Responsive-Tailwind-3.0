@@ -419,6 +419,10 @@ video {
   display: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 @font-face {
   font-family: 'Thiccboi';
 
@@ -601,10 +605,202 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-\[5\%\] {
+  left: 5%;
+}
+
+.bottom-\[5\%\] {
+  bottom: 5%;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.basis-full {
+  flex-basis: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.rounded-4xl {
+  border-radius: 2rem;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
+.bg-vid1 {
+  background-image: url('./Images/poster-00001.jpg');
+}
+
+.bg-vid2 {
+  background-image: url('./Images/poster-00002.jpg');
+}
+
+.bg-vid3 {
+  background-image: url('./Images/poster-00003.jpg');
+}
+
+.bg-vid4 {
+  background-image: url('./Images/poster-00004.jpg');
+}
+
+.bg-vid5 {
+  background-image: url('./Images/poster-00005.jpg');
+}
+
+.bg-vid6 {
+  background-image: url('./Images/poster-00006.jpg');
+}
+
+.bg-vid7 {
+  background-image: url('./Images/poster-00007.jpg');
+}
+
+.bg-vid8 {
+  background-image: url('./Images/poster-00008.jpg');
+}
+
+.bg-vid9 {
+  background-image: url('./Images/poster-00009.jpg');
+}
+
+.bg-vid10 {
+  background-image: url('./Images/poster-00010.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .font-thiccboi {
   font-family: Thiccboi;
 }
 
-.font {
-  background-color: blue;
+.font-playfair {
+  font-family: playfair Display ,serif;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: minmax(100% , 1fr);
+  grid-auto-rows: auto;
+  width: 96vw;
+  margin: 0 auto;
+}
+
+.custom-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: .7vmax;
 }
