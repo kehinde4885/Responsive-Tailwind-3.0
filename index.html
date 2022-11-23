@@ -11,9 +11,10 @@
     <title>Filmax</title>
 </head>
 <body class="text-white bg-black">
-    <div class="wrapper">
+    <div class="wrapper relative">
 
-        <header class="flex justify-between items-center">
+        <!-- stackingContext -->
+        <header class="z-[2] sticky top-0 row-start-1 col-start-2 col-span-1 h-40 flex justify-between items-center">
             <div>
                 <img class="object-cover w-full" src="./Images/logo.svg" alt="logo">
             </div>
@@ -22,11 +23,15 @@
             </div>
         </header>
 
-        <h1 class="uppercase font-thiccboi text-7xl font-bold ">film <br>director <br>
-            <span class="font-playfair lowercase text-5xl italic">from</span> amsterdam</h1>
+        <div class="z-[1] absolute w-full col-start-2 col-span-1 flex flex-col">
+            <p class="h-[65vh] bg-black flex items-end  uppercase font-thiccboi text-7xl font-bold ">film <br>director</p>
+            <div class="mix-blend-overlay">
+                <p class="bg-black uppercase font-thiccboi text-7xl font-bold "><span class="font-playfair font-normal lowercase text-5xl italic">from</span> amsterdam</p>
+            </div>
+        </div>
 
             
-        <main class="custom-grid">
+        <main class="row-start-1 col-start-2 col-span-1 custom-grid z-0">
                 
             <div class="h-screen flex flex-col relative">
                 <video autoplay muted loop class="bg-vid1 bg-cover bg-center object-cover basis-full rounded-4xl">
@@ -141,9 +146,12 @@
        </main>
     </div>
 
-    <footer class="wrapper bg-black text-right justify-items-end">
-        <p class="text-6xl uppercase font-semibold font-thiccboi">Got a project in mind?</p>
-        <button class="w-max text-6xl font-playfair italic"><a href="#">~ Let’s talk.</a></button>
+    <footer class="wrapper bg-black text-right justify-items-end my-12 mt-48">
+        <div class="col-start-2 col-span-1">
+            <p class="text-6xl uppercase font-semibold font-thiccboi">Got a project in mind?</p>
+            <button class="w-max text-6xl font-playfair italic"><a href="#">~ Let’s talk.</a></button>
+
+        </div>
     </footer>
 
 

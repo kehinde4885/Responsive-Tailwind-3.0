@@ -2,6 +2,11 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
+    screens: {
+      'md': '770px',
+      // => @media (min-width: 770px) { ... }
+    },
+    
     extend: {
       fontFamily: {
         playfair: "playfair Display ,serif",

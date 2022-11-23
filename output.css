@@ -613,6 +613,14 @@ html {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .left-\[5\%\] {
   left: 5%;
 }
@@ -621,12 +629,75 @@ html {
   bottom: 5%;
 }
 
+.z-\[2\] {
+  z-index: 2;
+}
+
+.z-\[1\] {
+  z-index: 1;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
 .flex {
   display: flex;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-\[60vh\] {
+  height: 60vh;
+}
+
+.h-\[65vh\] {
+  height: 65vh;
 }
 
 .w-full {
@@ -644,6 +715,10 @@ html {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -667,9 +742,9 @@ html {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-red-800 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-vid1 {
@@ -747,9 +822,9 @@ html {
   line-height: 1;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-6xl {
@@ -757,13 +832,12 @@ html {
   line-height: 1;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -791,16 +865,30 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-transparent {
+  color: transparent;
+}
+
+.mix-blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.mix-blend-overlay {
+  mix-blend-mode: overlay;
+}
+
 .wrapper {
   display: grid;
-  grid-template-columns: minmax(100% , 1fr);
+  grid-template-columns: 2vw minmax(96vw , 1fr) 2vw;
   grid-auto-rows: auto;
-  width: 96vw;
-  margin: 0 auto;
 }
 
 .custom-grid {
   display: grid;
   grid-auto-columns: 1fr;
   gap: .7vmax;
+}
+
+.rounding {
+  height: 30px;
 }

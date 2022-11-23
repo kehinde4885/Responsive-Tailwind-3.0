@@ -74,14 +74,16 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: minmax(100% , 1fr);
+    grid-template-columns: 2vw minmax(96vw , 1fr) 2vw;
     grid-auto-rows: auto;
-    width: 96vw;
-    margin: 0 auto;
 }
 
 .custom-grid {
     display: grid;
     grid-auto-columns: 1fr;
     gap: .7vmax;
+}
+
+.rounding {
+    height: 30px;
 }
