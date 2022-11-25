@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./output.css">
     <title>Filmax</title>
 </head>
-<body class="text-white bg-black">
+<body class="text-white bg-black overflow-x-hidden">
     <div class="wrapper relative">
 
         <!-- stackingContext -->
@@ -18,25 +18,34 @@
             <div>
                 <img class="object-cover w-full" src="./Images/logo.svg" alt="logo">
             </div>
-            <div>
+            <nav class="hidden md:block basis-1/2 max-w-[384px]">
+                <ul class="text-2xl font-semibold flex justify-around">
+                    <li>Work</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <div class="md:hidden">
                 <img class="object-cover w-full" src="./Images/menu.svg" alt="menu-icon">
             </div>
         </header>
 
-        <div class="z-[1] absolute w-full col-start-2 col-span-1 flex flex-col">
-            <p class="h-[65vh] bg-black flex items-end  uppercase font-thiccboi text-7xl font-bold ">film <br>director</p>
-            <div class="mix-blend-overlay">
-                <p class="bg-black uppercase font-thiccboi text-7xl font-bold "><span class="font-playfair font-normal lowercase text-5xl italic">from</span> amsterdam</p>
+        <!-- stackingContext -->
+        <div class="lg:h-screen z-[1] absolute w-full bg-black col-start-2 col-span-2 flex flex-col h-[65vh] justify-end">
+            <p class="uppercase font-thiccboi text-7xl font-bold ">film <br>director</p>
+            <div class="">
+                <p class="uppercase font-thiccboi text-7xl font-bold "><span class="font-playfair font-normal lowercase text-5xl italic">from</span> amsterdam</p>
             </div>
         </div>
 
             
+        <!-- stackingContext -->
         <main class="row-start-1 col-start-2 col-span-1 custom-grid z-0">
-                
-            <div class="h-screen flex flex-col relative">
-                <video autoplay muted loop class="bg-vid1 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+            <div class="md:col-span-2 flex flex-col relative h-screen">
+                <video  muted loop class=" object-cover h-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">Crisp</p>
@@ -45,9 +54,9 @@
             </div>
 
             <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid2 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+                <video  muted loop class=" object-cover h-full rounded-4xl">
+                    <source src="
+                    https://assets.website-files.com/630efbe8ac35922a8eff4563/63160fd73c52f0234c85e7de_2_Offline by Aerie TV ad for Dancing With Stars-transcode.webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">dancing with stars</p>
@@ -56,9 +65,9 @@
             </div>
 
             <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid3 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+                <video  muted loop class=" object-cover h-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">bols</p>
@@ -66,10 +75,10 @@
                 </div>
             </div>
 
-            <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid4 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+            <div class="md:col-span-2 flex flex-col relative">
+                <video  muted loop class=" object-cover h-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">Magnolia</p>
@@ -78,9 +87,9 @@
             </div>
 
             <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid5 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+                <video  muted loop class=" object-cover h-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">swiss arabian</p>
@@ -89,9 +98,9 @@
             </div>
 
             <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid6 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+                <video  muted loop class=" object-cover basis-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">people on the sand</p>
@@ -99,10 +108,10 @@
                 </div>
             </div>
 
-            <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid7 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+            <div class="md:col-span-2 flex flex-col relative">
+                <video  muted loop class="object-cover h-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">saloni</p>
@@ -111,9 +120,9 @@
             </div>
 
             <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid8 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+                <video  muted loop class=" object-cover h-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">iriedaily</p>
@@ -122,9 +131,9 @@
             </div>
 
             <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid9 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+                <video  muted loop class="object-cover h-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">samsung</p>
@@ -132,10 +141,10 @@
                 </div>
             </div>
 
-            <div class="flex flex-col relative">
-                <video autoplay muted loop class="bg-vid10 bg-cover bg-center object-cover basis-full rounded-4xl">
-                    <!-- <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
-                    type="video/webm"> -->
+            <div class="md:col-span-2 flex flex-col relative">
+            <video  muted loop class="object-cover h-full rounded-4xl">
+                    <source src="https://assets.website-files.com/630efbe8ac35922a8eff4563/6315ce9a142485132abb302f_1_Crisp TVC on Vimeo-transcode.webm"
+                    type="video/webm">
                 </video>
                 <div class="absolute left-[5%] bottom-[5%]">
                     <p class="font-thiccboi font-semibold text-3xl uppercase">leica m11</p>
@@ -150,7 +159,6 @@
         <div class="col-start-2 col-span-1">
             <p class="text-6xl uppercase font-semibold font-thiccboi">Got a project in mind?</p>
             <button class="w-max text-6xl font-playfair italic"><a href="#">~ Let’s talk.</a></button>
-
         </div>
     </footer>
 

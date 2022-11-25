@@ -3,10 +3,12 @@ module.exports = {
   content: ["./index.html"],
   theme: {
     screens: {
-      'md': '770px',
-      // => @media (min-width: 770px) { ... }
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+      'lg': '990px',
+      // => @media (min-width: 990px) { ... }
     },
-    
+
     extend: {
       fontFamily: {
         playfair: "playfair Display ,serif",

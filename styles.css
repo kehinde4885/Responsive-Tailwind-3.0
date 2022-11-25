@@ -74,7 +74,7 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: 2vw minmax(96vw , 1fr) 2vw;
+    grid-template-columns: 2vw 96vw 2vw;
     grid-auto-rows: auto;
 }
 
