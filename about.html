@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <title>Filmax</title>
+</head>
+<body class="text-white bg-black overflow-x-hidden">
+    <div class="wrapper">
+        <header class="z-[2] sticky top-0 row-start-1 col-start-2 col-span-1 h-40 flex justify-between items-center">
+            <div>
+                <a href="./index.html">
+                <img class="object-cover w-full" src="./Images/logo.svg" alt="logo">
+                </a>
+            </div>
+            <nav class="hidden md:block basis-1/2 max-w-[384px]">
+                <ul class="text-2xl font-semibold flex justify-around">
+                    <li><a href="./work.html">Work</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="md:hidden">
+                <img class="object-cover w-full" src="./Images/menu.svg" alt="menu-icon">
+            </div>
+        </header>
+
+        <div class="z-[1] col-start-2 col-span-1 flex flex-col justify-end text-[10vw] h-[2em]">
+            <p class="uppercase font-thiccboi leading-none font-bold">about</p>
+        </div>
+
+        <main class="col-start-2 custom-grid">
+            <!-- griditem1 -->
+            <div class="">
+                <img class="object-cover rounded-3xl" src="./Images/About_1.jpg" alt="">
+            </div>
+
+            <!-- griditem2 -->
+            <div class="md:flex-row md:justify-between flex flex-col border-solid border-b-[1px] border-grey py-16">
+                <div class=" mb-12">
+                    <p class="md:text-5xl font-playfair text-4xl italic">Intro</p>
+                </div>
+
+                <div class=" md:text-xl md:basis-2/4 space-y-12 text-base">
+                    <p class="font-thiccboi text-grey2 text-[1.5em]  leading-normal">Condimentum enim ut nunc, sed magna scelerisque quam nec. Ullamcorper ullamcorper sed erat enim. 
+                        Pellentesque sit nibh faucibus nunc amet hendrerit rhoncus, phasellus eros. 
+                        Tincidunt blandit sed sagittis, lectus massa ipsum cras vestibulum. Ac aliquet et, venenatis massa in. Tincidunt sed.
+                    </p>
+                    <p class="font-thiccboi font-bold text-[3.0em] leading-none">
+                        RISUS SCELERISQUE ET ORCI DIS MAURIS RISUS SIT.
+                    </p>
+                    <p class="font-thiccboi text-grey2 text-[1.5em]  leading-normal">
+                        Fermentum interdum felis eu eget adipiscing viverra etiam. Leo arcu, quam arcu. Facilisis auctor aenean cras odio dictum sed faucibus. 
+                        Ac eget vel risus eget.
+                    </p>
+                    <p class="font-thiccboi text-grey2 text-[1.5em]  leading-normal">
+                        At consectetur ullamcorper in integer quam viverra. 
+                        Pharetra venenatis integer in dignissim aenean vivamus non id. 
+                        Ultrices pharetra tellus id sed aliquam faucibus. Tincidunt laoreet amet sodales etiam. 
+                        Convallis tincidunt id nam auctor. Sit velit, molestie nunc malesuada nulla. 
+                        Pellentesque sit nibh faucibus.
+                    </p>
+                </div>
+            </div>
+
+            <!-- griditem3 -->
+            <div class="md:flex-row md:justify-between flex flex-col border-solid border-b-[1px] border-grey py-16">
+                <div class=" mb-12">
+                    <p class="md:text-5xl font-playfair text-4xl italic">Clients</p>
+                </div>
+
+                <div class="md:text-3xl md:basis-2/4 text-base">
+                    <ul class="md:space-y-12 font-thiccboi font-bold text-[2.5em] leading-10 space-y-6">
+                        <li class="uppercase">Leica</li>
+                        <li class="uppercase">samsung</li>
+                        <li class="uppercase">webflow</li>
+                        <li class="uppercase">swiss arabian</li>
+                        <li class="uppercase">magnolia</li>
+                        <li class="uppercase">saloni</li>
+                        <li class="uppercase">crisp</li>
+                        <li class="uppercase">bols</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- griditem4 -->
+            <div class="md:flex-row md:justify-between flex flex-col py-16">
+                <div class="mb-12">
+                    <p class="md:text-5xl font-playfair text-4xl italic">Awards</p>
+                </div>
+
+                <div class="md:basis-1/2 md:text-3xl md:space-y-24 space-y-12 text-base">
+                    <div class="font-thiccboi space-y-4">
+                        <p class="text-2xl font-semibold text-grey2">2022</p>
+                        <div class="md:space-y-12 font-bold text-[2.5em] leading-10 space-y-4">
+                            <p class="uppercase">national film awards</p>
+                            <p class="uppercase">london film critics circle</p>
+                            <p class="uppercase">gotham awards</p>
+                        </div>
+                    </div>
+
+                    <div class="font-thiccboi space-y-4">
+                        <p class="text-2xl font-semibold text-grey2">2021</p>
+                        <div class="md:space-y-12 font-bold text-[2.5em] leading-10 space-y-4">
+                            <p class="uppercase">cannes film festival</p>
+                            <p class="uppercase">louis delluc prize</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- griditem5 -->
+            <div>
+                <img class="object-cover rounded-3xl" src="./Images/About_2.jpg" alt="">
+            </div>
+        </main>
+    </div>
+
+    <footer class="wrapper bg-black text-right justify-items-end my-12 mt-48">
+        <div class="col-start-2 col-span-1">
+            <p class="text-6xl uppercase font-semibold font-thiccboi">Got a project in mind?</p>
+            <button class="w-max text-6xl font-playfair italic"><a href="#">~ Let’s talk.</a></button>
+        </div>
+    </footer>
+</body>

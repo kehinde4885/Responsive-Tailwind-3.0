@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html","./work.html","./about.html","./blog.html","./contact.html"],
   theme: {
     screens: {
       'md': '768px',
@@ -33,6 +33,11 @@ module.exports = {
         '5xl': '2.5rem',
         '6xl': '3rem'
        },
+
+       colors: {
+        'grey': 'rgba(218,215,212,.4)',
+        'grey2': 'rgba(218,215,212,.6)'
+       }
   },
   plugins: [],
 }
