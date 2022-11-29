@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <title>Filmax</title>
+</head>
+<body class="text-white bg-black overflow-x-hidden">
+    <div class="wrapper">
+        <header class="z-[2] sticky top-0 row-start-1 col-start-2 col-span-1 h-40 flex justify-between items-center">
+            <div>
+                <a href="./index.html">
+                <img class="object-cover w-full" src="./Images/logo.svg" alt="logo">
+                </a>
+            </div>
+            <nav class="hidden md:block basis-1/2 max-w-[384px]">
+                <ul class="text-2xl font-semibold flex justify-around">
+                    <li><a href="./work.html">Work</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="md:hidden">
+                <img class="object-cover w-full" src="./Images/menu.svg" alt="menu-icon">
+            </div>
+        </header>
+
+        <div class="z-[1] col-start-2 col-span-1 flex flex-col justify-end text-[10vw] h-[2em]">
+            <p class="uppercase font-thiccboi leading-none font-bold">contact</p>
+        </div>
+
+        <main class="col-start-2 custom-grid auto-rows-[minmax(40vh,min-content)] font-thiccboi">
+            <div class="lg:col-span-3 flex flex-col justify-between hover:bg-bg1 bg-grey3 text-base py-12 px-8 rounded-4xl">
+                <p class="uppercase  text-[4em] font-bold">Email</p>
+                <p class="self-end  font-semibold text-[1.7em]">info@yoursite.com</p>
+            </div>
+            <div class="lg:col-span-3 flex flex-col justify-between hover:bg-bg2 bg-grey3 text-base py-12 px-8 rounded-4xl">
+                <p class="uppercase text-[4em] font-bold">address</p>
+                <div class="self-end font-semibold text-[1.7em] space-y-4 text-right">
+                    <p>Ceintuurbaan 123H, 4567 GB</p>
+                    <p>Amsterdam, Netherlands</p>
+                </div>
+            </div>
+            <div class="md:col-span-2 lg:col-span-6 flex flex-col justify-between hover:bg-bg3 bg-grey3 text-base py-12 px-8 rounded-4xl">
+                <p class="uppercase text-[4em] font-bold">phone</p>
+                <p class="self-end  font-semibold text-[1.7em]">tel: 800-123-4567</p>
+            </div>
+            <div class="lg:col-span-2 flex flex-col justify-between hover:bg-bg4 bg-grey3 text-base py-12 px-8 rounded-4xl">
+                <p class="uppercase text-[4em] font-bold">instagram</p>
+                <p class="self-end  font-semibold text-[1.7em]">@webflow</p>
+            </div>
+            <div class="lg:col-span-2 flex flex-col justify-between hover:bg-bg5 bg-grey3 text-base py-12 px-8 rounded-4xl">
+                <p class="uppercase text-[4em] font-bold">facebook</p>
+                <p class="self-end  font-semibold text-[1.7em]">@webflow</p>
+            </div>
+            <div class="md:col-span-2 flex flex-col justify-between hover:bg-bg6 bg-grey3 text-base py-12 px-8 rounded-4xl">
+                <p class="uppercase text-[4em] font-bold">twitter</p>
+                <p class="self-end  font-semibold text-[1.7em]">@webflow</p>
+            </div>
+
+        </main>
+
+
+    </div>
+
+    <footer class="wrapper bg-black text-right justify-items-end my-12 mt-48">
+        <div class="col-start-2 col-span-1">
+            <p class="text-6xl uppercase font-semibold font-thiccboi">Got a project in mind?</p>
+            <button class="w-max text-6xl font-playfair italic"><a href="#">~ Let’s talk.</a></button>
+        </div>
+    </footer>
+</body>
