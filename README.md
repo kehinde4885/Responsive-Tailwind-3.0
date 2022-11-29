@@ -1,3 +1,5 @@
+link https://kehinde4885.github.io/Responsive-Tailwind-3.0/index.html
+
 # Responsive-Tailwind-3.0
 First Multiple page tailwind project, its proving to be relatively easier than i thought.
 As intuited, the tailwind components make creating multiple pages very fast.
